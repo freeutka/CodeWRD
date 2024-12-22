@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CodeWRD">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CodeWRD</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background: #111;
-      color: #f1f1f1;
-    }
-
-    .title {
-      color: #33414e;
-    }
-
-    body, html {
-      height: 100%; 
-      margin: 0;    
-    }
-
-    .center-wrapper {
-      display: flex;           
-      justify-content: center; 
-      align-items: center;     
-      height: 100vh;          
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="center-wrapper">
-    <h1 class="title">Coming Soon</h1>
-  </div>
+  <header>
+    <div class="container">
+      <h1>CodeWRD</h1>
+      <nav>
+        <a href="https://github.com/freeutka/CodeWRD" target="_blank">GitHub</a>
+        <a href="downloads.html">Downloads</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <div class="image-container">
+        <button class="prev" onclick="changeImage(-1)">&#8592;</button>
+        <img id="image" src="1.png" alt="CodeWRD Application Screenshot">
+        <button class="next" onclick="changeImage(1)">&#8594;</button>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <h2>About CodeWRD</h2>
+      <p>
+        <strong>CodeWRD</strong> is a Windows application with fully open-source code. 
+        It provides a wide range of code samples for your projects or simply for experimenting and learning new things. 
+        Whether you're looking for inspiration, learning resources, or just want to try out new coding ideas, 
+        CodeWRD offers numerous examples to help you grow as a developer and explore various programming techniques.
+      </p>
+
+      <h3>Features</h3>
+      <ul>
+        <li>A variety of code examples for different programming scenarios</li>
+        <li>Great for experimenting and learning new concepts</li>
+        <li>Ideal for developers looking for inspiration and resources</li>
+      </ul>
+
+      <h3>Installation</h3>
+      <p>
+        To get started with CodeWRD, download the latest release from the official repository and follow the installation instructions.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      by freeutka ❤️
+    </p>
+  </footer>
+
+  <script>
+    const images = ['screenshots/1.png', 'screenshots/2.png', 'screenshots/3.png', 'screenshots/4.png'];
+    let currentIndex = 0;
+
+    function changeImage(direction) {
+      const imageElement = document.getElementById('image');
+      imageElement.classList.remove('fade-in', 'fade-out');
+      imageElement.classList.add('fade-out');
+      
+      setTimeout(() => {
+        currentIndex = (currentIndex + direction + images.length) % images.length;
+        imageElement.src = images[currentIndex];
+        imageElement.classList.add('fade-in');
+      }, 300);
+    }
+  </script>
 </body>
 </html>
