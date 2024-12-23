@@ -3,9 +3,10 @@ layout: default
 title: "Changelog"
 ---
 
-# 1.0.0.0 | Changelog
+# 1.0.0.2 | Changelog
 
-- The application has now been completely rebranded to avoid copyright issues.
+- Added a new codes to Utilities (Utils) category.
+- Fixed a small bugs.
 
 ## Support
 
