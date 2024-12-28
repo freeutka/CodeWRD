@@ -3,10 +3,9 @@ layout: default
 title: "Changelog"
 ---
 
-# 1.0.0.2 | Changelog
+# 1.0.0.3 | Changelog
 
-- Added a new codes to Utilities (Utils) category.
-- Fixed a small bugs.
+- Added a new codes to Data Analysis category.
 
 ## Support
 
