@@ -1,6 +1,6 @@
 # CodeWRD
 
-**CodeWRD** is a Windows application with fully open-source code. It provides a wide range of code samples for your projects or simply for experimenting and learning new things. Whether you're looking for inspiration, learning resources, or just want to try out new coding ideas, CodeWRD offers numerous examples to help you grow as a developer and explore various programming techniques.
+**CodeWRD** is a Windows application. It provides a wide range of code samples for your projects or simply for experimenting and learning new things. Whether you're looking for inspiration, learning resources, or just want to try out new coding ideas, CodeWRD offers numerous examples to help you grow as a developer and explore various programming techniques.
 
 ## Features
 - A variety of code examples for different programming scenarios
