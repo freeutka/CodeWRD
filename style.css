@@ -200,3 +200,63 @@ footer p {
 .download-button:hover {
   background: #009ace;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden; 
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.6s ease-in-out;
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 0px; 
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2em;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
