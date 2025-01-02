@@ -3,11 +3,10 @@ layout: default
 title: "Changelog"
 ---
 
-# 1.0.1.0 | Changelog
+# 1.0.1.1 | Changelog
 
-- Added a new codes to Machine Learning (AI) category.
-- Removed AutoUpdaterDotNET
-- Fixed images on home page (https://codewrd.freeutka.xyz)
+- Added a new codes to Desktop Applications category.
+- Fixed AutoUpdaterDotNET
 
 ## Support
 
