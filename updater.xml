@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<item>
-  <version>1.0.1.1</version>
-  <url>https://github.com/freeutka/CodeWRD/raw/refs/heads/main/builds/1.0.1.1.zip</url>
-  <changelog>https://codewrd.freeutka.xyz/changelog</changelog>
-  <mandatory minVersion="1.0.1.1">true</mandatory>
-</item>
