@@ -1,3 +1,8 @@
+![Downloads - Total](https://img.shields.io/github/downloads/freeutka/CodeWRD/total?style=for-the-badge)
+![Downloads - Latest](https://img.shields.io/github/downloads/freeutka/CodeWRD/latest/total?style=for-the-badge)
+![Version](https://img.shields.io/github/v/release/freeutka/CodeWRD?style=for-the-badge)
+![Contributors](https://img.shields.io/github/contributors-anon/freeutka/CodeWRD?style=for-the-badge)
+
 # CodeWRD
 
 **CodeWRD** is a Windows application. It provides a wide range of code samples for your projects or simply for experimenting and learning new things. Whether you're looking for inspiration, learning resources, or just want to try out new coding ideas, CodeWRD offers numerous examples to help you grow as a developer and explore various programming techniques.
